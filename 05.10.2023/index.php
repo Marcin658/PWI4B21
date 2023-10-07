@@ -25,7 +25,10 @@ footer {background-color: black;
 a {color: #aaa;
     text-decoration: none;
     border-bottom: 1px solid white;}
-
+.ul{
+    display: flex;
+    flex-direction: row;
+}
 
     </style>
 </head>
