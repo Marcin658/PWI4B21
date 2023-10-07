@@ -25,12 +25,9 @@ footer {background-color: black;
 a {color: #aaa;
     text-decoration: none;
     border-bottom: 1px solid white;}
-.nav{
+.ul{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-flow: row wrap;
 }
 
 
