@@ -1,0 +1,24 @@
+* {
+    font-family: Arial;
+    margin: auto;
+}
+
+main {
+    background-color: #483D8B;
+    color: white;
+}
+.g_l {
+    height: 150px;
+    width: 30%;
+}
+.g_s {
+    background-color: #483D8B;
+    height: 150px;
+    width: 70%;
+}
+
+footer {
+    background-color: #483D8B;
+    color: white;
+    padding: 10px;
+}
