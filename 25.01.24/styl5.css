@@ -6,16 +6,43 @@
 main {
     background-color: #483D8B;
     color: white;
+    display: flex;
+    flex-direction: row;
 }
-.g_l {
+.l_g {
     height: 150px;
     width: 30%;
+
+
 }
-.g_s {
+.s_g {
     background-color: #483D8B;
     height: 150px;
     width: 70%;
+
 }
+.np {
+    padding: 10px;
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    box-sizing: border-box;
+    justify-items: center;
+
+
+}
+.sec1 {
+    background-color: #AFEEEE;
+    width: 150px;
+    height: 100px;
+    margin: 3px;
+    border: solid black;
+    flex-basis: calc(13.2857% - 10px);
+    text-align: center;
+}
+
 
 footer {
     background-color: #483D8B;
