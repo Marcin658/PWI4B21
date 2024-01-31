@@ -71,15 +71,15 @@
     </section>
     <footer>
         <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nowy_wpis = $_POST["pole_wpisu"];
-    $data_do_uaktualnienia = "2020-07-13";
-    $sql1 = "UPDATE zadania SET wpis = 'Wycieczka: jezioro'  = '$nowy_wpis' WHERE dataZadania = '2020-07-13'";
-
-    if ($conn->query($sql1) === TRUE) {
-        echo "Dane zostały pomyślnie zaktualizowane.";
-    }
-}
+           
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                $nowy_wpis = $_POST["pole_wpisu"];
+                $data_do_uaktualnienia = "2020-07-13";
+                $sql1 = "UPDATE zadania SET wpis = 'Wycieczka: jezioro'  = '$nowy_wpis' WHERE dataZadania = '2020-07-13'";
+                if ($conn->query($sql1) === TRUE) {
+                    echo "Dane zostały pomyślnie zaktualizowane.";
+                }
+            }
         ?>
     <form name='addEntry' action="#" method='post'>
             <label for="new">dodaj wpis: </label>
