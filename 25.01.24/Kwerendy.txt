@@ -1,0 +1,4 @@
+1.SELECT MONTH(dataZadania) AS miesiac, YEAR(dataZadania) AS rok FROM zadania WHERE dataZadania = '2020-07-01';
+2.SELECT dataZadania, wpis FROM zadania WHERE MONTH(dataZadania) = 7;
+3.SELECT DISTINCT MONTH(dataZadania) AS miesiac FROM zadania WHERE UPPER(LEFT(MONTHNAME(dataZadania), 1)) = 'L';
+4.UPDATE zadania SET wpis = 'Wycieczka: jezioro' WHERE dataZadania = '2020-07-13';
