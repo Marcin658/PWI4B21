@@ -1,0 +1,28 @@
+*{
+    font-family: Garamond;
+}
+
+section{
+    background-color: lavender;
+}
+aside{
+    height: 500px;
+    width: 25%;
+    
+}
+aside1{
+    height: 300px;
+    width: 25%;
+}
+article{
+    height: 650px;
+    width: 75%;
+    background-color: lavender;
+    font-size: 200%;
+    text-align: center;
+}
+footer{
+    background-color: indigo;
+    color: white;
+    text-align: right;
+}
