@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styl2.css">
+    <title>Formatowanie</title>
+</head>
+<body>
+    <header>
+        <h1>Formatowanie dokumentów HTML</h1>
+    </header>
+    <section class="ein">
+        <h2>Przykład listy - hobby</h2>
+        <ul>
+            <li>
+                muzyka
+            </li>
+            <li>
+                turystyka
+            </li>
+                <ol>
+                    <li>góry</li>
+                    <li>jeziora</li>
+                    <li>na rowerze</li>
+                </ol>
+            <li>
+                kiążki
+            </li>
+        </ul>
+    </section>
+    <section class="zwei">
+        <h2></h2>
+        <table>
+            <tr>
+                <th>Pora dnia</th>
+                <th>obowiąki</th>
+            </tr>
+            <tr>
+                <td>rano</td>
+                <td>nauka</td>
+            </tr>
+            <tr>
+                <td>południe</td>
+                <td>zajęcia dodatkowe</td>
+            </tr>
+            <tr>
+                <td>południe</td>
+                <td rowspan="2">moje hobby</td>
+            </tr>
+            <tr>
+                <td>wieczór</td>
+            </tr>
+        </table>
+    </section>
+    <section class="drei">
+        <img src="tekst.png" alt="technologia web" height="300px">
+    </section>
+    <main>
+        <p>Podaj rozmiar tekstu w procentach: </p>
+        <p>
+            <select name="" id="">prosty</select>
+            <select name="" id="">kursywa</select>
+        </p>
+        <p>Jakim kolorem sformatować tekst? Wybierz przycisk</p>
+        <p>
+            <button class="red">&nbsp</button>
+            <button class="green">&nbsp</button>
+            <button class="blue">&nbsp</button>
+        </p>
+        <p>To jest przykład paragrafu,
+             który może być dowolnie formatowany przez JavaScript</p>
+    </main>
+    <footer>
+        <p>Formatowaniem tekstu zajmował się:</p>
+    </footer>
+    <script>
+        function changeStyle(color)
+        {
+            const doSkryptu = document.querySelector('#do_skryptu')
+
+        }
+        const red = document.querySelector('#red')
+        const green = document.querySelector('#green')
+        const blue = document.querySelector('#blue')
+    </script>
+</body>
+</html>

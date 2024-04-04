@@ -1,0 +1,69 @@
+*
+{
+    font-family: Georgia;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.ein
+{
+    background-color: #A26475;
+    color: white;
+    width: 40%;
+    height: 300px;
+}
+
+.zwei
+{
+    background-color: #A26475;
+    color: white;
+    width: 40%;
+    height: 300px;
+}
+
+.drei
+{
+    background-color: #A26475;
+    color: white;
+    padding: 20px;
+}
+
+table th, td
+{
+    border: 2px solid;
+    padding: 7px;
+    border-collapse: collapse;
+}
+
+ul
+{
+    list-style-type:square;
+
+}
+
+.red
+{
+    background-color: red;
+}
+
+.green
+{
+    background-color: green;
+}
+
+.blue
+{
+    background-color: blue;
+}
